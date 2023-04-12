@@ -1,9 +1,3 @@
-let rng_chance = [
-  { name: "New PS5 Game", image: "none", chance: 0.001 },
-  { name: "Eat Ouside", image: "none", chance: 0.05 },
-  { name: "Take Home Food", image: "none", chance: 0.05 },
-];
-
 let chipAnimation = (selector) => {
   let chips = document.querySelectorAll(selector);
   let counter = 0;
