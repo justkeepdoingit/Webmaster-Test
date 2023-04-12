@@ -80,10 +80,7 @@ p{
     background-color: rgb(245, 212, 64);
     padding: 5px 15px 7px 15px;
     opacity: 0;
-    transition: 300ms ease-in-out;
-}
-.chip:hover{
-    scale: 1.2;
+    cursor: pointer;
 }
 .btn{
     padding: 15px;
