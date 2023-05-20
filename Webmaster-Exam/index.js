@@ -138,7 +138,7 @@ let Footer = async () => {
 
 setInterval(() => {
   let precision = 100;
-  jackpotTotal += Math.floor(Math.random() * (10 * precision - 1 * precision) + 1 * precision) / (1 * precision);
+  jackpotTotal += Math.floor(Math.random() * (2 * precision - 1 * precision) + 1 * precision) / (1 * precision);
   updateElement(".jackpot", `$${jackpotTotal.toLocaleString()}`);
 }, 3000);
 
